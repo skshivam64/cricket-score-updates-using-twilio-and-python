@@ -4,13 +4,13 @@ from urllib import request
 import time
 
 # Your Account SID from twilio.com/console
-account_sid = "AC950b83acecb0840855a65741bc435b16"
+account_sid = "Your_Account_SID"
 # Your Auth Token from twilio.com/console
-auth_token = "dc976b7faf7ef333a91587285bb4a357"
+auth_token = "Your_Authentication_Token"
 # Receiver's number
-receiver = "+918809263651"
+receiver = "Reciever's_Number"
 # Your twilio number
-sender = "+13013218912"
+sender = "Your_Twilio_Number"
 
 
 def extract_score(my_url, *id_kargs):
